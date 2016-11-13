@@ -1,4 +1,4 @@
-# Rails Feature Toggle Example
+# Rails Feature Toggles Example
 
 This is an example from my talk When You Say DevOps showing how simple
 it is to implement feature toggles yourself and start growing them for
