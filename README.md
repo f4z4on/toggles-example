@@ -10,9 +10,9 @@ powerfull feature toggles can be.
 There are three important moments in this repository with regard to
 feature toggles:
 
-1. [Introduction of simple `Feature` module](https://github.com/frzng/toggles-example/releases/tag/feature-lib-introduced)
-2. [Test support for temporary override of feature config](https://github.com/frzng/toggles-example/releases/tag/feature-lib-test-support)
-3. [Branching by feature toggle `saas_greet`](https://github.com/frzng/toggles-example/releases/tag/feature-toggle-applied)
+1. [Introduction of simple `Feature` module][feature-lib-introduced]
+2. [Support for tests to override of feature config][feature-lib-test-support]
+3. [Branching by feature toggle `saas_greet`][feature-toggle-applied]
 
 All this can evolve in many ways. You can autoload the feature
 library. Optimize YAML loading and parsing on every `enabled?`
@@ -29,3 +29,8 @@ pipeline. Introducing even more branches is useless and actually
 introduces unnecessary complexity. If you need to branch your code,
 there better and more powerful ways. This my point here and is part of
 my war cry during When You Say DevOps talk.
+
+
+[feature-lib-introduced]: https://github.com/frzng/toggles-example/releases/tag/feature-lib-introduced
+[feature-lib-test-support]: https://github.com/frzng/toggles-example/releases/tag/feature-lib-test-support
+[feature-toggle-applied]: https://github.com/frzng/toggles-example/releases/tag/feature-toggle-applied
