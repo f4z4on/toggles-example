@@ -1,11 +1,11 @@
 # Rails Feature Toggles Example
 
-This is an example from my talk When You Say DevOps showing how simple
-it is to implement feature toggles yourself and start growing them for
-your needs from there. This can be constrasted with third-party
-solution (library or service) which can bring unnecessary complexity
-to your project especially if you and your team are still learning how
-powerfull feature toggles can be.
+This is an example from my talk [When you say DevOps][devops-talk]
+showing how simple it is to implement feature toggles yourself and
+start growing them for your needs from there. This can be constrasted
+with third-party solution (library or service) which can bring
+unnecessary complexity to your project especially if you and your team
+are still learning how powerfull feature toggles can be.
 
 There are three important moments in this repository with regard to
 feature toggles:
@@ -28,9 +28,10 @@ developer’s machine and on every stage of delivery
 pipeline. Introducing even more branches is useless and actually
 introduces unnecessary complexity. If you need to branch your code,
 there better and more powerful ways. This my point here and is part of
-my war cry during When You Say DevOps talk.
+my war cry during [When you say DevOps talk][devops-talk].
 
 
+[devops-talk]: https://speakerdeck.com/frzng/when-you-say-devops
 [feature-lib-introduced]: https://github.com/frzng/toggles-example/releases/tag/feature-lib-introduced
 [feature-lib-test-support]: https://github.com/frzng/toggles-example/releases/tag/feature-lib-test-support
 [feature-toggle-applied]: https://github.com/frzng/toggles-example/releases/tag/feature-toggle-applied
