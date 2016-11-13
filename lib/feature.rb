@@ -17,6 +17,12 @@ module Feature
   ##
   # Checks if given feature is enabled.
   def self.enabled? feature
-    !!YAML.load_file(Rails.root.join('config', 'features.yml'))[feature]
+    !!config[feature]
+  end
+
+  ##
+  # Loads feature toggles configuration.
+  def self.config
+    YAML.load_file Rails.root.join('config', 'features.yml')
   end
 end

@@ -26,6 +26,6 @@ class FeatureTest < Minitest::Test
   private
 
   def stub_config config = EMPTY_CONFIG, &block
-    YAML.stub :load_file, config, &block
+    Feature.stub :config, config, &block
   end
 end
